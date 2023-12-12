@@ -1,3 +1,8 @@
-- name: Print debug message
+- name: Echo 
+  hosts: localhost
+  connection: local
+
+  tasks:
+  - name: Print debug message
     debug:
       msg: Hello, world!
